@@ -1,0 +1,13 @@
+to configure the typescript type
+-> tsc --init
+
+change some setting after doing this
+
+1. target -> ES2024
+2. module -> commonjs
+3. rootDir -> ./src
+4. outDir -> ./dist
+5. removeComments -> True
+6. noEmitOnError -> True
+
+-> after doing this js file will be saved under dist folder, and ts file will be saved under src folder
